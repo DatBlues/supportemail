@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:weightSum="1"
+    android:background="#02be99"
+    android:padding="15dp">
+
+
+    <EditText
+        android:id="@+id/edt_password"
+        android:hint="Password"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_above="@+id/btn_login"
+        android:padding="5dp"
+        android:textSize="12sp"
+        android:inputType="textPassword"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:text="Login"
+        android:background="#c8dfde"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textColor="#048465"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="12sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:text="Not a member?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_login"
+        android:textColor="#fff"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="51dp"
+        />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:text="sign up now."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView9"
+        android:textColor="#fff"
+        android:layout_toEndOf="@+id/textView9"
+        android:layout_marginStart="10dp"
+         />
+
+    <EditText
+        android:id="@+id/edt_mail"
+        android:hint="Email"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginBottom="11dp"
+        android:padding="5dp"
+        android:textSize="12sp"
+        android:layout_above="@+id/edt_password"
+        android:layout_alignParentStart="true" />
+
+
+    />
+</RelativeLayout>
